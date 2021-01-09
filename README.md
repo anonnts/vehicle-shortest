@@ -1,11 +1,13 @@
 ## Vehicle Routing Problem by Shortest path  
 
-** Request data: 
-	"time" : Array[number[]], -- ** Maxtrix
-		"payload" : {
-			"volume" : number[],
-      "weight" : number[]
-		},
+
+## Reqest 
+<p>"time" : Array[number[]] ** time should be matrix format</p>
+<p> "payload" : {
+	"volume" : number[],
+      	"weight" : number[]
+	}
+</p>
 	"conditions" : {
 		"maxDuration": number,
 		"slack" : number 
