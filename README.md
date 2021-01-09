@@ -8,15 +8,17 @@
       	"weight" : number[]
 	}
 </p>
-	"conditions" : {
-		"maxDuration": number,
-		"slack" : number 
-	},
-	"vehicles" : Array[{
-		"id" : string,
-		"weight" : number,
-		"volume" : number
+<p> "conditions" : {
+	"maxDuration": number,
+	"slack" : number 
+	}
+</p>
+<p> "vehicles" : Array[{
+	"id" : string,
+	"weight" : number,
+	"volume" : number
 	}]
+</p>
 
 ## Feature
 <p>[x] calculation best time to deliver</p>
